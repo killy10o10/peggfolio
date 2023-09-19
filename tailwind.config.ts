@@ -8,7 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-
+      fontFamily: {
+        AdobeGaramond: "'Adobe Garamond Pro', serif",
+      },
     },
   },
   plugins: [],

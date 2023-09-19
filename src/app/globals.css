@@ -1,3 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'Adobe Garamond Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Adobe Garamond Pro Regular'),
+    url('../../public/fonts/AGaramondPro-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Adobe Garamond Pro';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Adobe Garamond Pro Italic'),
+    url('../../public/fonts/AGaramondPro-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Adobe Garamond Pro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Adobe Garamond Pro Bold'),
+    url('../../public/fonts/AGaramondPro-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Adobe Garamond Pro';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Adobe Garamond Pro Bold Italic'),
+    url('../../public/fonts/AGaramondPro-BoldItalic.woff') format('woff');
+}
