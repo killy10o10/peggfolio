@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { ModeToggle } from './ui/theme-toggle'
 
 const Navbar = () => {
   return (
@@ -10,6 +11,7 @@ const Navbar = () => {
         <div className='flex items-center gap-3'>
           <Link href="/" >Home</Link>
           <Link href="/" >Contact</Link>
+          <ModeToggle />
         </div>
       </nav>
     </header>

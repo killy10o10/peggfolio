@@ -2,14 +2,14 @@ import Image from "next/image"
 
 const Landing = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-5  place-items-center font-AdobeGaramond justify-center">
+    <div className="grid p-2 md:grid-cols-2 gap-5  place-items-center font-AdobeGaramond justify-center">
       <div>
         <Image
           src="/peggy.jpg"
           alt="Peggy Ama Boadi the Lawyer"
           width={500}
           height={400}
-          priority
+          priority={true}
           className="m-0 h-auto grayscale dark:grayscale-0"
         />
       </div>
