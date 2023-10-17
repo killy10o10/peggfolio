@@ -23,7 +23,7 @@ export default function RootLayout({
           defaultTheme='system'
           enableSystem
         >
-          {children}
+            {children}
         </ThemeProvider>
       </body>
     </html>

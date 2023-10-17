@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
         <div className='flex items-center gap-3'>
           <Link href="/" >Home</Link>
-          <Link href="/" >Contact</Link>
+          <Link href="mailto:pdobreve@gmail.com" >Contact</Link>
           <ModeToggle />
         </div>
       </nav>
